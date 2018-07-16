@@ -5,11 +5,15 @@
   </head>
   <link rel="stylesheet" type="text/css" href="../agstyles.css">
   <body style="background-color: green;">
-    <audio autoplay>
+    <a onclick="document.getElementById('audio').play();">
+      <h1><h1>Access Granted</h1></h1>
+
+    </a>
+    <audio id="audio" autoplay>
       <source src="sounds/ag.mp3" type="audio/mpeg">
       <source src="sounds/ag.wav" type="audio/wav">
       <source src="sounds/ag.ogg" type="audio/ogg">
        </audio>
-    <h1>Access Granted</h1>
+
   </body>
 </html>
