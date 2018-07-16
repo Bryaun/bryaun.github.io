@@ -2,24 +2,15 @@
 <html>
   <head>
   <title>test</title>
-  <script language="javascript" type="text/javascript">
-    function playSound(soundfile) {
-      document.getElementById("dummy").innerHTML= "<embed src=\""
-        +soundfile+"\" hidden=\"true\" autostart=\"true\"
-        loop=\"false\" />";
-}
-</script>
+
   </head>
   <link rel="stylesheet" type="text/css" href="../agstyles.css">
   <body style="background-color: green;">
-    <span id="dummy"></span>
-    <!--
-    <audio autoplay>
+    <audio autoplay controls>
       <source src="../sounds/ag.mp3" type="audio/mpeg">
       <source src="../sounds/ag.wav" type="audio/wav">
       <source src="../sounds/ag.ogg" type="audio/ogg">
        </audio>
-       */-->
-       <a href="#" onclick="playSound('../sounds/ag.mp3');"> Access Granted</a>
+
   </body>
 </html>
